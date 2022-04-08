@@ -42,12 +42,13 @@ struct Node *InsertionAtEnd(struct Node *head, int data)
 
 int main()
 {
-
+   
     struct Node *head;
     struct Node *second;
     struct Node *third;
     struct Node *fourth;
-
+    
+    //Memory allocations
     head = (struct Node *)malloc(sizeof(struct Node));
     second = (struct Node *)malloc(sizeof(struct Node));
     third = (struct Node *)malloc(sizeof(struct Node));
